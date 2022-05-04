@@ -16,7 +16,10 @@ import Foundation
 let legOfTriangleAC = 8.0
 let legOfTriangeCB = 6.0
 let areaOfTriangle = (legOfTriangleAC * legOfTriangeCB) / 2
-let triangleHypotenuseAB = sqrt((legOfTriangleAC * legOfTriangleAC) + (legOfTriangeCB * legOfTriangeCB))
+let triangleHypotenuseAB = sqrt(legOfTriangleAC * legOfTriangleAC + legOfTriangeCB * legOfTriangeCB)
 let perimeterOfTriangle = legOfTriangleAC + legOfTriangeCB + triangleHypotenuseAB
 print("Площадь прямоугольного тругольника = \(areaOfTriangle). Периметр прямоугольного треугольника = \(perimeterOfTriangle) \n")
-print("Было интересно вспоминать школу!")
+print("Было интересно вспоминать школу! \n")
+print("Сейчас будет 1-й коммит на GitHub \n")
+print("Нее, вот сейчас точно будет коммит")
+print("New test")
